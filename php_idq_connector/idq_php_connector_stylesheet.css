@@ -1,0 +1,16 @@
+.btn-login-with-idq{
+    height:32px;
+    width:198px;
+    background-position: 0 0;
+    background-size: 198px 32px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.idq-button-inbay-blue{
+    background-image: url(img/idq_blue.png);
+}
+
+.idq-button-inbay-light-grey{
+    background-image: url(img/idq_grey.png);
+}
