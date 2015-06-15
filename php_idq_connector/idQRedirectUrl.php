@@ -2,7 +2,6 @@
 include_once 'idQOauthClientInfo.php';
 include 'idQPHP.php';
 if(isset($_GET['state'])){
-    echo $_SESSION["state_oauth"];
     if($_GET['state']==$_SESSION["state_oauth"]){
         $_SESSION["auth_code_confirmed"]=$_GET['code'];
     }
